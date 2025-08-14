@@ -1,4 +1,38 @@
 /* style.css */
+
+/* Container for the two-column layout */
+.content-layout {
+    display: flex;
+    gap: 20px; /* space between main content and sidebar */
+}
+
+/* Main content column */
+.main-content {
+    flex: 2; /* takes more space */
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+/* Sidebar column */
+.sidebar {
+    flex: 1; /* narrower than main content */
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+/* Sidebar image styling */
+.sidebar img {
+    width: 100%; /* fits box */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
 body {
     font-family: Courier New, serif;
     margin: 0;
@@ -8,7 +42,7 @@ body {
 
 header {
     background: #23a115;
-    color: #0a0a0a;
+    color: white;
     padding: 1em 0;
     text-align: left;
     text-indent: 10%;
@@ -28,11 +62,10 @@ nav a:hover {
 }
 
 main {
-    max-width: 800px;
-    text-align: left;
-    margin: auto;
-    padding: 20px;
-    background: white;
+    max-width: 1000px;  /* wider to fit both columns */
+    margin: 20px auto;  /* space above main section */
+    padding: 0 20px;    /* side padding */
+    background: none;   /* remove white background (now inside columns) */
 }
 
 footer {
