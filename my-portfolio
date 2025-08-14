@@ -1,7 +1,0 @@
-my-portfolio/
-│
-├── index.html       ← Home page
-├── bio.html         ← Bio page
-├── projects.html    ← Projects page
-├── blog.html        ← Blog page
-└── style.css        ← Shared stylesheet
