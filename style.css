@@ -68,6 +68,18 @@ main {
     background: none;   /* remove white background (now inside columns) */
 }
 
+/* ----- Responsive layout for mobile ----- */
+@media (max-width: 768px) {
+    .content-layout {
+        flex-direction: column; /* stack vertically */
+    }
+
+    .main-content,
+    .sidebar {
+        flex: 1; /* take full width */
+    }
+}
+
 footer {
     text-align: center;
     padding: 1em;
