@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background: #7de382;
-    color: #fff;
+    background: #23a115;
+    color: #0a0a0a;
     padding: 1em 0;
     text-align: left;
+    text-indent: 20%;
 }
 
 nav a {
@@ -22,10 +23,14 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: magenta;
 }
 
 main {
     max-width: 800px;
+    text-align: left;
+    text-indent: 30%;
     margin: auto;
     padding: 20px;
     background: white;
