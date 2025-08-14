@@ -10,7 +10,7 @@
 .main-content {
     flex: 2; /* takes more space */
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
@@ -19,7 +19,7 @@
 .sidebar {
     flex: 1; /* narrower than main content */
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
